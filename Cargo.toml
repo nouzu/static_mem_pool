@@ -1,0 +1,13 @@
+[package]
+name = "static_mem_pool"
+authors = ["Dmytro Prokhorov"]
+version = "0.2.0"
+edition = "2021"
+description = "compile-time preallocated memory pool"
+repository = "https://github.com/nouzu/static_mem_pool"
+license = "WTFPL"
+keywords = ["memory", "pool", "preallocation", "performance", "reuse"]
+categories = ["memory-management", "no-std"]
+
+[dependencies]
+const_collections = { git = "https://github.com/nouzu/const_collections" }
