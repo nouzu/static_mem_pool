@@ -10,4 +10,4 @@ keywords = ["memory", "pool", "preallocation", "performance", "reuse"]
 categories = ["memory-management", "no-std"]
 
 [dependencies]
-const_collections = { git = "https://github.com/nouzu/const_collections" }
+const_collections = "0.1.0"
